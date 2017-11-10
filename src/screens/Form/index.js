@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { SafeAreaView, View, Text } from 'react-native'
 
+import TextInput from '../../components/TextInput'
+
 class FormScreen extends Component {
   constructor (props) {
     super(props)
@@ -11,6 +13,7 @@ class FormScreen extends Component {
       <SafeAreaView>
         <View>
           <Text>Hello world!</Text>
+          <TextInput />
         </View>
       </SafeAreaView>
     )
