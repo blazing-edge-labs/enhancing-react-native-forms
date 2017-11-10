@@ -1,8 +1,11 @@
 import React from 'react'
-import { TextInput } from 'react-native'
+import { TextInput, View, Text } from 'react-native'
 
-export default function () {
+export default function ({ label }) {
   return (
-    <TextInput />
+    <View>
+      <Text>{label}</Text>
+      <TextInput />
+    </View>
   )
 }

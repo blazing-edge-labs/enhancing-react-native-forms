@@ -13,7 +13,7 @@ class FormScreen extends Component {
       <SafeAreaView>
         <View>
           <Text>Hello world!</Text>
-          <TextInput />
+          <TextInput label='Label for first input component'/>
         </View>
       </SafeAreaView>
     )
