@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { SafeAreaView, View, Text } from 'react-native'
 
 class FormScreen extends Component {
   constructor (props) {
@@ -8,18 +8,13 @@ class FormScreen extends Component {
 
   render () {
     return (
-      <View style={style.container}>
-        <Text>Hello world!</Text>
-      </View>
+      <SafeAreaView>
+        <View>
+          <Text>Hello world!</Text>
+        </View>
+      </SafeAreaView>
     )
   }
 }
-
-const style = StyleSheet.create({
-  container: {
-    paddingTop: 40,
-    paddingLeft: 20,
-  }
-})
 
 export default FormScreen
